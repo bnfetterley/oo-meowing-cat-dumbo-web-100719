@@ -3,6 +3,8 @@ class Cat
   
 maru = Cat.new
 
+attr_accessor :name
+
 def name(new_name)
 @name = new_name
 end
